@@ -1,6 +1,7 @@
 # Voice Memo Reminder (Android)
 
 음성(STT)으로 메모를 작성하고, 한국어 날짜·시간(또는 상대시간)을 인식해 리마인더 알림을 예약하는 Android 앱입니다.
+실제 빌드된 apk: https://drive.google.com/file/d/1aMXZTda5uqLohix6vkG_7XauvkIfp77W/view?usp=sharing
 
 ## 주요 기능
 - 음성 메모 작성 (STT) + 안내 음성(TTS)
