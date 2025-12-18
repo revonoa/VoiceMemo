@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 # Gradle files
+=======
+# Gradle
+>>>>>>> 24e5f16 (voice memo 1.0 251218)
 .gradle/
 build/
 
 # Local configuration file (sdk path, etc)
 local.properties
 
+<<<<<<< HEAD
 # Log/OS Files
 *.log
 
@@ -32,3 +37,42 @@ google-services.json
 
 # Android Profiling
 *.hprof
+=======
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files (절대 올리면 안 됨)
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures / Logs
+captures/
+*.log
+
+# APK / AAB
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Generated files
+**/generated/
+**/out/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java compiled
+*.class
+
+# (선택) Room schema를 export 하지 않는다면 굳이 필요 없음
+# schemas/
+>>>>>>> 24e5f16 (voice memo 1.0 251218)
