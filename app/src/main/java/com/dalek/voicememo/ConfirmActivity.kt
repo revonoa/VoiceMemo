@@ -33,10 +33,10 @@ class ConfirmActivity: AppCompatActivity() {
 
     private var parsedTimeMillis: Long?= null
 
-    // ✅ ADDED: "날짜는 있는데 시간은 없음"을 감지해서 안내용으로 쓰기
+    //"날짜는 있는데 시간은 없음"을 감지해서 안내용으로 쓰기
     private var hasDateButNoTime: Boolean = false
 
-    // ✅ ADDED: "시간은 있는데 날짜는 없음" 감지
+    //ADDED: "시간은 있는데 날짜는 없음" 감지
     private var hasTimeButNoDate: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,7 +64,7 @@ class ConfirmActivity: AppCompatActivity() {
         // auto generate title
         etTitle.setText(makeTitle(text))
 
-        // ✅ ADDED: 날짜/시간 힌트 판정(안내용 + 알림 가능 조건용)
+        //ADDED: 날짜/시간 힌트 판정(안내용 + 알림 가능 조건용)
         val hasDateHint = containsDateHint(text)
         val hasTimeHint = containsTimeHint(text)
 
